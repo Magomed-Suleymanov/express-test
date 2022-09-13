@@ -1,0 +1,60 @@
+.sidebar {
+  width: 50%;
+  height: 95vh;
+  color: #969c9f;
+}
+
+.wrapScrollbars {
+  height: 95vh;
+}
+
+.items {
+  width: 95%;
+  border-radius: 10px;
+  background-color: #3a3d3e;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.contentAddress {
+  font-size: 22px;
+  cursor: default;
+}
+
+.contentTabs {
+  margin-top: 14px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.contentTab {
+  margin-right: 20px;
+  cursor: pointer;
+  background-color: #282c2d;
+  padding: 6px 8px;
+  border-radius: 5px;
+}
+
+.items:focus {
+  background-color: #4a4f50;
+}
+
+@media (max-width: 840px) {
+  .items {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 95%;
+  }
+
+  .contentAddress {
+    font-size: 20px;
+  }
+
+  .contentTab {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+}
